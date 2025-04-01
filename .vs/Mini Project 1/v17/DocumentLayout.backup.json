@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|c:\\users\\admin\\desktop\\miniproject1\\mini project 1\\assets\\undead survivor\\sprites\\codes\\reposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\reposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|c:\\users\\admin\\desktop\\miniproject1\\mini project 1\\assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\assets\\undead survivor\\sprites\\codes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T01:44:58.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reposition.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T01:43:50.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T20:32:35.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

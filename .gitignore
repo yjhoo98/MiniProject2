@@ -1,0 +1,54 @@
+# Unity 빌드 결과물 제외
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# VSCode 관련 파일 제외
+.vscode/
+
+# MonoDevelop-Unity 자동 생성 파일 제외
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.booproj
+*.svd
+
+# Unity 빌드 시 생성되는 파일 제외
+*.pidb
+*.mdb
+*.opendb
+*.VC.db
+
+# 라이선스 파일 및 설정 제외
+.idea/
+*.tmproj
+
+# Unity 자동 생성 파일 제외
+.DS_Store
+Thumbs.db
+*.bak
+*.asset
+*.prefs
+*.mode
+
+# Unity Play Mode 테스트 결과 제외
+Assets/Scenes/*.unity.meta
+
+# Log 파일 제외
+*.log
+*.log.*
+
+# macOS 관련 파일 제외
+.DS_Store
+._*
+
+# Windows 관련 파일 제외
+Thumbs.db
+eh
