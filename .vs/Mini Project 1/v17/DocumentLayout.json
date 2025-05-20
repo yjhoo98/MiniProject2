@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\",
+  "WorkspaceRootPath": "C:\\Users\\yjhoo\\OneDrive\\Desktop\\Mini Project 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|c:\\users\\admin\\desktop\\miniproject1\\mini project 1\\assets\\undead survivor\\sprites\\codes\\reposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\reposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yjhoo\\OneDrive\\Desktop\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yjhoo\\OneDrive\\Desktop\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\assets\\undead survivor\\sprites\\codes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yjhoo\\OneDrive\\Desktop\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\yjhoo\\OneDrive\\Desktop\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
+              "ToolTip": "C:\\Users\\yjhoo\\OneDrive\\Desktop\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
               "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Reposition.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs",
+              "DocumentMoniker": "C:\\Users\\yjhoo\\OneDrive\\Desktop\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs",
+              "ToolTip": "C:\\Users\\yjhoo\\OneDrive\\Desktop\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs",
               "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\Reposition.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\yjhoo\\OneDrive\\Desktop\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
+              "ToolTip": "C:\\Users\\yjhoo\\OneDrive\\Desktop\\Mini Project 1\\Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
               "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

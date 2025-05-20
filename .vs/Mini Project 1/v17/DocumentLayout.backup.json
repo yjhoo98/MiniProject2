@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\reposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|c:\\users\\admin\\desktop\\miniproject1\\mini project 1\\assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|C:\\Users\\admin\\Desktop\\miniproject1\\Mini Project 1\\assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE9168F7-4366-6E7F-739A-9BA05606190F}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\sprites\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,8 +34,7 @@
               "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T01:44:58.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T01:44:58.175Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Assets\\Undead Survivor\\Sprites\\Codes\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T20:32:35.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T20:32:35.635Z"
             }
           ]
         }
