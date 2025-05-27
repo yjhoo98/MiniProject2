@@ -74,3 +74,5 @@ Assets/Plugins/Android/Editor/Google.*
 # Firebase SDK 내부 패키지 루트 경로 무시
 Assets/Firebase/*
 !Assets/Firebase/FirebaseApp.unitypackage  # 필요 시 일부 예외 처리
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_9_0.bundle
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_9_0.so
