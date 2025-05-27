@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Firebase.Database;
 
 public class GameManager : MonoBehaviour
 {
@@ -30,16 +31,50 @@ public class GameManager : MonoBehaviour
         Instance = this;
         Application.targetFrameRate = 60;
     }
-    public void GameStart(int id)
+    public string cachedUid;
+    public int cachedCharacterId;
+    public void SetUser(string uid)
     {
-        playerId = id;
+        cachedUid = uid;
+    }
+
+    public void SetCharacterId(int id)
+    {
+        cachedCharacterId = id;
+    }
+    public void GameStart()
+    {
+        playerId = cachedCharacterId;
         health = maxHealth;
-        
+
         player.gameObject.SetActive(true);
-        uiLevelUp.Select(playerId%2);
+        uiLevelUp.Select(playerId);
         Resume();
-        AudioManager.instance.PlayBgm(true);
-        AudioManager.instance.PlaySfx(AudioManager.Sfx.Select);
+
+        SaveUserData(cachedUid);
+    }
+
+
+    public void SaveUserData(string uid)
+    {
+        FirebaseDatabase db = FirebaseDatabase.GetInstance("https://undeadsurvivor-77af8-default-rtdb.firebaseio.com/");
+
+        Dictionary<string, object> data = new Dictionary<string, object>
+    {
+        { "level", level },
+        { "kill", kill },
+        { "exp", exp },
+        { "maxHealth", maxHealth },
+        { "playerId", playerId }
+    };
+
+        db.RootReference.Child("users").Child(uid).UpdateChildrenAsync(data).ContinueWith(task =>
+        {
+            if (task.IsFaulted)
+                Debug.LogError("? Save Failed: " + task.Exception);
+            else
+                Debug.Log("? User data saved");
+        });
     }
     public void GameOver()
     {
@@ -96,10 +131,10 @@ public class GameManager : MonoBehaviour
     }
     public void GetExp()
     {
-        if(!isLive)
+        if (!isLive)
             return;
         exp++;
-        if (exp == nextExp[Mathf.Min(level,nextExp.Length-1)])
+        if (exp == nextExp[Mathf.Min(level, nextExp.Length - 1)])
         {
             level++;
             exp = 0;
@@ -111,7 +146,7 @@ public class GameManager : MonoBehaviour
     {
         isLive = false;
         Time.timeScale = 0;
-        UiJoy.localScale=Vector3.zero;
+        UiJoy.localScale = Vector3.zero;
     }
 
     public void Resume()
