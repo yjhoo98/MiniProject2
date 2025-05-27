@@ -52,3 +52,26 @@ Assets/Scenes/*.unity.meta
 # Windows 관련 파일 제외
 Thumbs.db
 eh
+
+# Firebase Unity SDK 관련 파일 무시
+Assets/Firebase/**/*.unitypackage
+Assets/Firebase/**/*.aar
+Assets/Firebase/**/*.jar
+Assets/Firebase/**/*.dll
+Assets/Firebase/Editor/**/*.cs
+Assets/GeneratedLocalRepo/
+
+# Google External Dependency Manager 생성 파일
+Assets/Plugins/Android/Editor/GoogleVersionHandler.cs
+Assets/Plugins/Android/Editor/Google.*
+
+# 기타 빌드된 캐시 파일 무시 (필요시)
+*.apk
+*.aab
+*.dex
+*.so
+
+# Firebase SDK 내부 패키지 루트 경로 무시
+Assets/Firebase/*
+!Assets/Firebase/FirebaseApp.unitypackage  # 필요 시 일부 예외 처리
+
