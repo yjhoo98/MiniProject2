@@ -15,6 +15,16 @@ public class Follow : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rect.position=Camera.main.WorldToScreenPoint(GameManager.Instance.player.transform.position);
+        if (GameManager.Instance == null || GameManager.Instance.player == null) // 변경된 부분
+            return; // 변경된 부분
+
+        if (Camera.main == null) // 변경된 부분
+        {
+            Debug.LogWarning("?? Camera.main is null"); // 변경된 부분
+            return; // 변경된 부분
+        }
+
+        rect.position = Camera.main.WorldToScreenPoint(GameManager.Instance.player.transform.position);
     }
+
 }

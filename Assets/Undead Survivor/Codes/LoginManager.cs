@@ -2,16 +2,28 @@ using Firebase.Auth;
 using Firebase.Extensions;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoginManager : MonoBehaviour
 {
-    [Header("UI 연결")]
     public TMP_InputField inputEmail;
     public TMP_InputField inputPassword;
-    public GameObject loginPanel;
-    public GameObject characterGroup; // 캐릭터 선택 UI
 
-    private string userId;
+    private void Awake()
+    {
+        // AudioListener 중복 제거 (Unity 2023+ 권장 방식)
+        var listeners = FindObjectsByType<AudioListener>(FindObjectsSortMode.None); // ? 수정된 줄
+
+        if (listeners.Length > 1)
+        {
+            foreach (var listener in listeners)
+            {
+                if (listener.gameObject != Camera.main.gameObject)
+                    Destroy(listener);
+            }
+        }
+    }
+
 
     public void OnLoginButtonClick()
     {
@@ -40,30 +52,16 @@ public class LoginManager : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("? 회원가입 성공!");
-                        userId = regTask.Result.User.UserId;
-                        ShowCharacterSelection(userId);
+                        GameManager.Instance.SetUser(regTask.Result.User.UserId); // 변경된 부분
+                        SceneManager.LoadScene("GameScene"); // 변경된 부분
                     }
                 });
             }
             else
             {
-                Debug.Log("? 로그인 성공!");
-                userId = task.Result.User.UserId;
-                ShowCharacterSelection(userId);
+                GameManager.Instance.SetUser(task.Result.User.UserId); // 변경된 부분
+                SceneManager.LoadScene("GameScene"); // 변경된 부분
             }
         });
-    }
-
-    private void ShowCharacterSelection(string uid)
-    {
-        GameManager.Instance.SetUser(uid); // UID를 GameManager에 저장
-        loginPanel.SetActive(false);
-        characterGroup.SetActive(true);   // 캐릭터 선택 UI 활성화
-    }
-
-    public void OnCharacterSelected(int index)
-    {
-        GameManager.Instance.SetCharacterId(index); // 선택된 캐릭터 ID 저장
     }
 }

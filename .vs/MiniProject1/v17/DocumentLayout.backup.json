@@ -3,32 +3,104 @@
   "WorkspaceRootPath": "C:\\MiniProject1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\firebaseinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\firebaseinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\characterselectionmanagerrscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\characterselectionmanagerrscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\achive manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\achive manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\reposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\reposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\poolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\poolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\levelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\levelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\item data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\item data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\firebaseinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\firebaseinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\confirmpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\confirmpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\characterselectionmanagerrscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\characterselectionmanagerrscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|C:\\MiniProject1\\assets\\undead survivor\\codes\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|c:\\miniproject1\\assets\\undead survivor\\codes\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CD5250-0864-097B-987C-E3C472FC3A14}|Assembly-CSharp.csproj|solutionrelative:assets\\undead survivor\\codes\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MiniProject1\\Assets\\Plugins\\Microsoft.Data.SqlClient.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Plugins\\Microsoft.Data.SqlClient.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MiniProject1\\Library\\PackageCache\\com.unity.cinemachine@624f919d8cdd\\Editor\\Samples\\ExposeHDRPInternals\\HDRP-Editor-ref.asmref||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -42,19 +114,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CharacterSelectionManagerrScript.cs",
-              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\CharacterSelectionManagerrScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\CharacterSelectionManagerrScript.cs",
-              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\CharacterSelectionManagerrScript.cs",
-              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\CharacterSelectionManagerrScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Spawner.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Spawner.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Spawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:38:52.639Z",
+              "WhenOpened": "2025-05-30T17:36:40.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Scanner.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Scanner.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Scanner.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Scanner.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Scanner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:36:36.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Result.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Result.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Result.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:36:32.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Reposition.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Reposition.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Reposition.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Reposition.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Reposition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:36:28.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PoolManager.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\PoolManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\PoolManager.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\PoolManager.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\PoolManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:36:24.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LevelUp.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\LevelUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\LevelUp.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\LevelUp.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\LevelUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:36:13.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Item.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Item.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:35:37.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "item Data.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\item Data.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\item Data.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\item Data.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\item Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:35:33.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Hand.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Hand.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Hand.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Hand.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Hand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:35:25.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HUD.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\HUD.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\HUD.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\HUD.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\HUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:29:43.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Follow.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Follow.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Follow.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Follow.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Follow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T16:56:49.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Weapon.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Weapon.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T20:35:59.067Z",
               "EditorCaption": ""
             },
             {
@@ -65,14 +280,129 @@
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\GameManager.cs",
               "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\GameManager.cs",
               "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\GameManager.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAYwE0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAiwIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T17:30:07.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Achive Manager.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Achive Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Achive Manager.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Achive Manager.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Achive Manager.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAEwD0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:34:06.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Gear.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Gear.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Gear.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Gear.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Gear.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:35:20.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Enemy.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:34:37.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Bullet.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:34:16.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\AudioManager.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:34:12.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CharacterSelectionManagerrScript.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\CharacterSelectionManagerrScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\CharacterSelectionManagerrScript.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\CharacterSelectionManagerrScript.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\CharacterSelectionManagerrScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:38:52.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginManager.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\LoginManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\LoginManager.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\LoginManager.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\LoginManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T16:21:19.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Player.cs",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Player.cs",
+              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:29:20.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Microsoft.Data.SqlClient.dll",
+              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Plugins\\Microsoft.Data.SqlClient.dll",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\Microsoft.Data.SqlClient.dll",
+              "ToolTip": "C:\\MiniProject1\\Assets\\Plugins\\Microsoft.Data.SqlClient.dll",
+              "RelativeToolTip": "Assets\\Plugins\\Microsoft.Data.SqlClient.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-05-30T09:25:41.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "ConfirmPopup.cs",
               "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\ConfirmPopup.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\ConfirmPopup.cs",
@@ -80,24 +410,12 @@
               "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\ConfirmPopup.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAADwvyEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:40:17.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginManager.cs",
-              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\LoginManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\LoginManager.cs",
-              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\LoginManager.cs",
-              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\LoginManager.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:39:00.829Z",
+              "WhenOpened": "2025-05-27T00:40:17.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "FirebaseInit.cs",
               "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\FirebaseInit.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\FirebaseInit.cs",
@@ -110,32 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Weapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Weapon.cs",
-              "ToolTip": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Weapon.cs",
-              "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T20:35:59.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HDRP-Editor-ref.asmref",
-              "DocumentMoniker": "C:\\MiniProject1\\Library\\PackageCache\\com.unity.cinemachine@624f919d8cdd\\Editor\\Samples\\ExposeHDRPInternals\\HDRP-Editor-ref.asmref",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.cinemachine@624f919d8cdd\\Editor\\Samples\\ExposeHDRPInternals\\HDRP-Editor-ref.asmref",
-              "ToolTip": "C:\\MiniProject1\\Library\\PackageCache\\com.unity.cinemachine@624f919d8cdd\\Editor\\Samples\\ExposeHDRPInternals\\HDRP-Editor-ref.asmref",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.cinemachine@624f919d8cdd\\Editor\\Samples\\ExposeHDRPInternals\\HDRP-Editor-ref.asmref",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-26T20:35:02.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\MiniProject1\\Assets\\Undead Survivor\\Codes\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Undead Survivor\\Codes\\Character.cs",
@@ -143,7 +436,20 @@
               "RelativeToolTip": "Assets\\Undead Survivor\\Codes\\Character.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T20:16:28.425Z"
+              "WhenOpened": "2025-05-26T20:16:28.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HDRP-Editor-ref.asmref",
+              "DocumentMoniker": "C:\\MiniProject1\\Library\\PackageCache\\com.unity.cinemachine@624f919d8cdd\\Editor\\Samples\\ExposeHDRPInternals\\HDRP-Editor-ref.asmref",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.cinemachine@624f919d8cdd\\Editor\\Samples\\ExposeHDRPInternals\\HDRP-Editor-ref.asmref",
+              "ToolTip": "C:\\MiniProject1\\Library\\PackageCache\\com.unity.cinemachine@624f919d8cdd\\Editor\\Samples\\ExposeHDRPInternals\\HDRP-Editor-ref.asmref",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.cinemachine@624f919d8cdd\\Editor\\Samples\\ExposeHDRPInternals\\HDRP-Editor-ref.asmref",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-26T20:35:02.284Z"
             }
           ]
         }

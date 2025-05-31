@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Firebase.Database;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+
     [Header("# Game Control")]
     public bool isLive;
     public float gameTime;
-    public float maxGameTime = 2 * 10f;
+    public float maxGameTime = 20f;
+
     [Header("# Player Info")]
     public int playerId;
     public float health;
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     public int kill;
     public int exp;
     public int[] nextExp = { 3, 5, 10, 100, 150, 210, 280, 360, 450, 600 };
+
     [Header("# Game Object")]
     public PoolManager pool;
     public Player player;
@@ -26,64 +28,116 @@ public class GameManager : MonoBehaviour
     public Result uiResult;
     public Transform UiJoy;
     public GameObject enemyCleaner;
-    private void Awake()
+
+    [Header("# 캐릭터 선택 UI")]
+    public GameObject characterSelectionPanel;
+
+    void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         Application.targetFrameRate = 60;
     }
-    public string cachedUid;
-    public int cachedCharacterId;
-    public void SetUser(string uid)
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        cachedUid = uid;
+        if (scene.name == "GameScene")
+        {
+            Debug.Log("?? GameScene 진입 → 오브젝트 재연결 시도");
+
+            // ? 비활성화된 오브젝트까지 포함해서 검색
+            GameObject[] allObjects = Resources.FindObjectsOfTypeAll<GameObject>();
+            foreach (GameObject obj in allObjects)
+            {
+                if (obj.CompareTag("Player"))
+                {
+                    player = obj.GetComponent<Player>();
+                    Debug.Log("? Player 재연결 성공");
+                    break;
+                }
+            }
+
+            pool = FindFirstObjectByType<PoolManager>();
+            uiLevelUp = FindFirstObjectByType<LevelUp>();
+            uiResult = FindFirstObjectByType<Result>();
+            UiJoy = GameObject.Find("Joy")?.transform;
+            enemyCleaner = GameObject.Find("EnemyCleaner");
+
+            if (characterSelectionPanel == null)
+            {
+                GameObject foundPanel = GameObject.Find("Character Group");
+                if (foundPanel != null)
+                {
+                    characterSelectionPanel = foundPanel;
+                    Debug.Log("? CharacterSelectionPanel 연결 완료");
+                }
+            }
+
+            if (characterSelectionPanel != null)
+                characterSelectionPanel.SetActive(true);
+        }
     }
 
-    public void SetCharacterId(int id)
+    public void GameStart(int id)
     {
-        cachedCharacterId = id;
-    }
-    public void GameStart()
-    {
-        playerId = cachedCharacterId;
+        playerId = id;
         health = maxHealth;
 
+        if (characterSelectionPanel != null)
+            characterSelectionPanel.SetActive(false);
+
+        if (player == null)
+        {
+            Debug.LogError("? GameStart: player가 null입니다! Player 태그 확인 요망");
+            return;
+        }
+
+        // ? 비활성화된 HUD를 Canvas로부터 찾아 활성화
+        GameObject canvas = GameObject.Find("Canvas");
+        if (canvas != null)
+        {
+            Transform hudTransform = canvas.transform.Find("HUD");
+            if (hudTransform != null)
+            {
+                hudTransform.gameObject.SetActive(true);
+                Debug.Log("? HUD 활성화됨");
+            }
+            else
+            {
+                Debug.LogWarning("? HUD 트랜스폼을 찾지 못했습니다.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("? Canvas 오브젝트를 찾을 수 없습니다.");
+        }
+
         player.gameObject.SetActive(true);
-        uiLevelUp.Select(playerId);
+        uiLevelUp.Select(playerId % 2);
         Resume();
 
-        SaveUserData(cachedUid);
+        AudioManager.instance.PlayBgm(true);
+        AudioManager.instance.PlaySfx(AudioManager.Sfx.Select);
     }
 
 
-    public void SaveUserData(string uid)
-    {
-        FirebaseDatabase db = FirebaseDatabase.GetInstance("https://undeadsurvivor-77af8-default-rtdb.firebaseio.com/");
-
-        Dictionary<string, object> data = new Dictionary<string, object>
-    {
-        { "level", level },
-        { "kill", kill },
-        { "exp", exp },
-        { "maxHealth", maxHealth },
-        { "playerId", playerId }
-    };
-
-        db.RootReference.Child("users").Child(uid).UpdateChildrenAsync(data).ContinueWith(task =>
-        {
-            if (task.IsFaulted)
-                Debug.LogError("? Save Failed: " + task.Exception);
-            else
-                Debug.Log("? User data saved");
-        });
-    }
     public void GameOver()
     {
         StartCoroutine(GameOverRoutine());
     }
+
     IEnumerator GameOverRoutine()
     {
         isLive = false;
-
         yield return new WaitForSeconds(0.5f);
         uiResult.gameObject.SetActive(true);
         uiResult.Lose();
@@ -96,6 +150,7 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine(GameVictoryRoutine());
     }
+
     IEnumerator GameVictoryRoutine()
     {
         isLive = false;
@@ -107,32 +162,36 @@ public class GameManager : MonoBehaviour
         AudioManager.instance.PlayBgm(false);
         AudioManager.instance.PlaySfx(AudioManager.Sfx.Win);
     }
+
     public void GameRetry()
     {
         SceneManager.LoadScene(0);
     }
+
     public void GameQuit()
     {
         Application.Quit();
     }
+
     void Update()
     {
         if (!isLive)
             return;
+
         gameTime += Time.deltaTime;
 
         if (gameTime > maxGameTime)
         {
-
             gameTime = maxGameTime;
             GameVictory();
         }
-
     }
+
     public void GetExp()
     {
         if (!isLive)
             return;
+
         exp++;
         if (exp == nextExp[Mathf.Min(level, nextExp.Length - 1)])
         {
@@ -146,13 +205,19 @@ public class GameManager : MonoBehaviour
     {
         isLive = false;
         Time.timeScale = 0;
-        UiJoy.localScale = Vector3.zero;
+        if (UiJoy != null)
+            UiJoy.localScale = Vector3.zero;
     }
 
     public void Resume()
     {
         isLive = true;
         Time.timeScale = 1;
-        UiJoy.localScale = Vector3.one;
+        if (UiJoy != null)
+            UiJoy.localScale = Vector3.one;
     }
+
+    public void SetUser(string uid) { }
 }
+
+
